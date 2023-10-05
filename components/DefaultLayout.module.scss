@@ -1,0 +1,11 @@
+@import '../styles/abstracts/_variables';
+@import '../styles/abstracts/_mixins';
+
+.pageWrapper {
+  padding: $spacer-3-12px;
+  height: auto;
+  position: relative;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
